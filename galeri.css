@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "alan";
+    grid-template-rows: 150px 1200px 300px ;
+
+}
+header{
+    flex: 0 0 20%;
+    background-color:azure;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    
+}
+
+    
+
+header>a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+header>span{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    
+ 
+}
+header > img{
+    width: 250px;
+    height: 250px;
+}
+header>span>a{
+    
+    text-decoration: none;
+    color: white;
+    
+}
+
+main{
+    display: flex;
+    flex:0 0 60%;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color:azure;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 30px;
+    
+    
+
+}
+main > img{
+    flex: 0 0 30%;
+    height: 250px;
+    background-color:azure;
+    border-radius: 15px;
+    border: 2px solid rgb(41, 40, 40);
+    
+}
+
+.alan{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 50%;
+    padding: 30px;
+    background-color:azure;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+.alan > img{
+    flex: 0 0 30%;
+    height: 250px;
+    background-color:azure;
+    border-radius: 25px;
+    border: 2px solid rgb(41, 40, 40);
+}
+footer{
+    flex: 0 0 20%;
+    background-color:azure;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 50px;
+}
+footer>img{
+    flex: 1 1 50px;
+    max-width: 100px;
+    min-height: 20px;
+}
+footer>span{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer > .a4 > a{
+        flex: 0 0 10%;
+        font-size: 25px;
+        color: white;
+        display:flex;
+        flex-direction: row;
+        justify-content: left;
+        margin-left:750px;
+        gap: 15px;
+        
+}
+footer > .a4 > #a5 > .a1:hover{
+    color: rgb(182, 57, 255);
+}
+footer > .a4 > #a5 > .a2:hover{
+    color: rgb(17, 0, 255);
+}
+footer > .a4 > #a5 > .a3:hover{
+    color: rgb(8, 248, 0);
+}
+footer > .a1 > a:hover{
+    color:bisque;
+}
+footer > .a2 > a:hover{
+    color:bisque;
+}
